@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: yellow;
-  --background-start-rgb: #b42020;
-  --background-end-rgb: #FFFFFF;
+  --foreground-rgb: #fcfcfc;
+  --background-start-rgb: #031C29;
+  --background-end-rgb: #031D29;
+  --text-color: white;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,10 +14,11 @@
     --foreground-rgb: #fcfcfc;
     --background-start-rgb: #031C29;
     --background-end-rgb: #031D29;
+    --text-color: white;
   }
 }
 
 body {
-  color: white;
   background: var(--background-start-rgb);
+  color: var(--text-color);
 }
