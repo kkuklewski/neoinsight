@@ -20,15 +20,14 @@ export default function Hero() {
                                 Innovative Solutions for Cancer Care
                             </h1>
                             <p className="mb-8 text-lg md:text-xl text-gray-400 font-medium">
-                                Our main goal is the development of cancer diagnostics and treatment by increasing the availability of patients to technology and new therapeutic solutions. 
+                                Our main goal is the development of cancer diagnostics and treatment by increasing the availability of patients to technology and new therapeutic solutions.
                             </p>
                             <div className="flex flex-wrap">
                                 <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
-                                    <ButtonUI style="dark" href="/" buttonName="More About Us" />
+                                    <ButtonUI style="dark" href="#aboutus" buttonName="More About Us" />
                                 </div>
                             </div>
                         </div>
-                                  <Stats />
                         <div className="w-full md:w-1/2 px-4">
                             <div className="relative mx-auto md:mr-0 max-w-max">
                                 <img
@@ -50,6 +49,7 @@ export default function Hero() {
                         </div>
                     </div>
                 </div>
+                <Stats />
             </div>
 
         </NestedSection>

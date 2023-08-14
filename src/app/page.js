@@ -5,6 +5,7 @@ import LeadingSection from './sections/leading-indications'
 import Sponsors from './sections/sponsors'
 
 export default function Home() {
+
   return (
     <>
       <Hero />

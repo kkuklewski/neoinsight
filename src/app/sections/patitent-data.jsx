@@ -10,6 +10,7 @@ export function BorderText({ text }) {
 export default function PatientData() {
     return (
         <NestedSection>
+            <div id="profiling"></div>
             <HeadingComponent text="What patient data is in our biobank?" />
             <ul className="flex flex-wrap gap-4">
                 <BorderText text="Archival tumor tissue with consent for its further examination" />

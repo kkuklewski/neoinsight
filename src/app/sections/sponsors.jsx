@@ -16,13 +16,13 @@ const stats = [
 
 export default function Sponsors() {
     return (
-        <NestedSection>
+        <NestedSection id="sponsor">
             <div className="overflow-hidden py-24 sm:py-32">
                 {/* box start */}
                 <div className="mx-auto px-6 lg:px-8">
                     <div className="mx-auto max-w-2xl lg:mx-0">
                         <HeadingComponent text="For sponsors/CRO" />
-                        <p className="mt-6 text-lg leading-8">
+                        <p className="mt-6 text-lg leading-8 ">
                             We offer cooperation in the recruitment of patients for your clinical trials in hematology and oncology indications.
                         </p>
                     </div>
