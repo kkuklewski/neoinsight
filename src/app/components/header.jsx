@@ -6,10 +6,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
     { name: 'start', href: '/' },
-    { name: 'blog', href: 'blog' },
-    { name: 'about', href: 'about' },
-    { name: 'contact', href: '/contact' },
-    { name: '404', href: '/contasfafact' },
+    { name: 'about us', href: '#aboutus' },
+    { name: 'modecular profiling', href: '#profiling' },
+    { name: 'sponsor/cro', href: '#sponsor' },
 ]
 export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -21,12 +20,7 @@ export default function Header() {
                     <nav className="flex items-center justify-between lg:px-8" aria-label="Global">
                         <div className="flex lg:flex-1 py-5">
                             <a href="/" className="-m-1.5 p-1.5 rounded-xl">
-                                <span className='text-vista-blue-700 font-bold'>Site Name</span>
-                                {/* <Image
-                                    className="h-24 w-auto"
-                                    src={logoWhite}
-                                    alt=""
-                                /> */}
+                                <span className='text-black-pearl-700 font-bold'>Neo-Insight.com</span>
                             </a>
                         </div>
                         <div className="flex lg:hidden">
@@ -41,20 +35,17 @@ export default function Header() {
                         </div>
                         <div className="hidden lg:flex lg:gap-x-12">
                             {navigation.map((item) => (
-                                <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-vista-blue-950">
+                                <a key={item.name} href={item.href} className="text-sm font-semibold leading-6">
                                     {item.name}
                                 </a>
                             ))}
-                        </div>
-                        <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-4 items-center">
-                            {/* <a target="_blank" href="https:/instagram.com/a1vstudio"><Image className="w-6 h-6" src={instagram} /></a>
-                            <a target="_blank" href="https://dribbble.com/kamilfikou"><Image className="w-6 h-6" src={dribble} /></a> */}
-                            <a href="mailto:lukasz@hivecv.com" className="font-bold text-vista-blue-950">
-                                E-mail <span aria-hidden="true">&rarr;</span>
+                            <a href="mailto:contact@neo-insight.com" className="font-boldp-4 border-indigo-800">
+                                Contact <span aria-hidden="true">&rarr;</span>
                             </a>
                         </div>
                     </nav>
                 </div>
+                {/* mobile menu */}
                 <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                     <div className="fixed inset-0 z-50" />
                     <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">

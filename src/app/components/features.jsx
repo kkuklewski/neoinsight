@@ -6,17 +6,17 @@ export default function FeaturesTwo() {
                     <div className="flex flex-wrap items-center -mx-4">
                         <div className="mb-12 lg:mb-0 w-full lg:w-1/2 px-4">
                             <div className="max-w-md">
-                                <span className="text-green-600 font-bold">
+                                <span className="text-black-pearl-600 ">
                                     Dolor sit amet consectutar
                                 </span>
-                                <h2 className="mb-6 text-4xl lg:text-5xl font-bold font-heading">
+                                <h2 className="mb-6 text-4xl lg:text-5xl  font-heading">
                                     Build &amp; Launch without problems
                                 </h2>
                                 <ul>
                                     <li className="flex mb-4">
                                         <div>
                                             <svg
-                                                className="mr-3 w-8 h-8 text-green-600"
+                                                className="mr-3 w-8 h-8 text-black-pearl-600"
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 fill="none"
                                                 viewBox="0 0 24 24"
@@ -31,7 +31,7 @@ export default function FeaturesTwo() {
                                             </svg>
                                         </div>
                                         <div className="max-w-xs">
-                                            <h3 className="font-bold font-heading">Easy to Customize</h3>
+                                            <h3 className=" font-heading">Easy to Customize</h3>
                                             <p className="text-gray-500 leading-loose">
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                             </p>
@@ -40,7 +40,7 @@ export default function FeaturesTwo() {
                                     <li className="flex mb-4">
                                         <div>
                                             <svg
-                                                className="mr-3 w-8 h-8 text-green-600"
+                                                className="mr-3 w-8 h-8 text-black-pearl-600"
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 fill="none"
                                                 viewBox="0 0 24 24"
@@ -55,7 +55,7 @@ export default function FeaturesTwo() {
                                             </svg>
                                         </div>
                                         <div className="max-w-xs">
-                                            <h3 className="font-bold font-heading">Flexible Software</h3>
+                                            <h3 className=" font-heading">Flexible Software</h3>
                                             <p className="text-gray-500 leading-loose">
                                                 Praesent viverra, nisi at placerat placerat, urna elit
                                                 viverra magna, varius auctor mauris.
@@ -65,7 +65,7 @@ export default function FeaturesTwo() {
                                     <li className="flex">
                                         <div>
                                             <svg
-                                                className="mr-3 w-8 h-8 text-green-600"
+                                                className="mr-3 w-8 h-8 text-black-pearl-600"
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 fill="none"
                                                 viewBox="0 0 24 24"
@@ -80,7 +80,7 @@ export default function FeaturesTwo() {
                                             </svg>
                                         </div>
                                         <div className="max-w-xs">
-                                            <h3 className="font-bold font-heading">
+                                            <h3 className=" font-heading">
                                                 Best access for all of the resources
                                             </h3>
                                             <p className="text-gray-500 leading-loose">
