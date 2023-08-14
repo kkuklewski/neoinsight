@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Hero from './components/Hero'
 import HowItWorks from './components/how-it-works'
+import Testimontials from './components/testimontials'
 import FeaturesTwo from './components/features'
 
 export default function Home() {

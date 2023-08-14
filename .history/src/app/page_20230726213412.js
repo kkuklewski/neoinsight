@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Hero from './components/Hero'
 import HowItWorks from './components/how-it-works'
-import FeaturesTwo from './components/features'
+import Testimontials from './components/testimontials'
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <Hero />
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <HowItWorks />
-        <FeaturesTwo />
+        <Testimontials />
       </main>
     </>
   )
